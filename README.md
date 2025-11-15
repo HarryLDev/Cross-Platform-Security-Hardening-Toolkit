@@ -9,7 +9,7 @@ Ideal for IT professionals, junior cybersecurity analysts, MSP environments, and
 
 This project provides three lightweight, easy-to-run scripts:
 
--Windows (PowerShell): AutoSecure.ps1
+-Windows (PowerShell): WindowsSecure.ps1
 
 -macOS (Bash): MacSecure.sh
 
@@ -19,7 +19,7 @@ Each script performs a full security audit and outputs a detailed text report su
 
 ## Features
 
-### ✔ Windows (AutoSecure.ps1)
+###  Windows (WindowsSecure.ps1)
 -Check last installed Windows Update
 
 -Confirm firewall status for all profiles
@@ -32,9 +32,9 @@ Each script performs a full security audit and outputs a detailed text report su
 
 -Check unnecessary services (e.g., Remote Registry)
 
--Generate a report to HardeningReport.txt
+-Generate a report to WindowsHardeningReport.txt
 
-### ✔ macOS (MacSecure.sh)
+###  macOS (MacSecure.sh)
 
 -Verify macOS Firewall status
 
@@ -52,7 +52,7 @@ Each script performs a full security audit and outputs a detailed text report su
 
 -Saves results to MacHardeningReport.txt
 
-### ✔ Ubuntu (LinuxSecure.sh)
+###  Ubuntu (LinuxSecure.sh)
 
 -Show available OS updates
 
