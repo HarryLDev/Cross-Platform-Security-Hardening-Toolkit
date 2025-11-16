@@ -32,7 +32,7 @@ Each script performs a full security audit and outputs a detailed text report su
 
 -Check unnecessary services (e.g., Remote Registry)
 
--Generate a report to WindowsHardeningReport.txt
+Saves a full report to windows_audit_YYYY-MM-DD_HH-MM-SS.txt
 
 ###  macOS (MacSecure.sh)
 
@@ -50,7 +50,7 @@ Each script performs a full security audit and outputs a detailed text report su
 
 -Display network services & sharing settings
 
--Saves results to MacHardeningReport.txt
+-Saves a full report to macos_audit_YYYY-MM-DD_HH-MM-SS.txt
 
 ###  Ubuntu (LinuxSecure.sh)
 
@@ -68,4 +68,4 @@ Each script performs a full security audit and outputs a detailed text report su
 
 -Review running services
 
--Saves a full report to LinuxHardeningReport.txt
+-Saves a full report to ubuntu_audit_YYYY-MM-DD_HH-MM-SS.txt
